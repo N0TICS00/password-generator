@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--MDB-->
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+  rel="stylesheet"
+/>
+    <!--HOVER.CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <section id="calculator">
+        <div class="box shadow-lg">
+            <h1>Password Generator</h1>
+            <input type="text" class="input-text form-control" placeholder="Create Password" name="input" readonly>
+            <div class="buttons">
+            <button class="btn btn-secondary hvr-bob btn-rounded " onclick="generatePassword()">Generate Password</button>
+            <button class="btn btn-secondary hvr-bob btn-rounded" onclick="copyPassword()">Copy Password</button>
+        </div>  
+        </div>
+        
+    </section>
+    <footer id="footer">
+        <h1>Made with ❤️ by <a href="">Paolo D'Agostino</a></h1>
+    </footer>      
+    <!--JAVASCRIPT-->
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
