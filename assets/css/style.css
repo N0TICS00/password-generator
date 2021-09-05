@@ -5,12 +5,11 @@
     box-sizing: border-box;
      }
 a{
-    color:black !important;
-
+    color: #2f2f2f !important;
 }
-body{
-    color:black !important;
-    background-color: #0061A8 !important;
+ body{
+    color:#2f2f2f !important;
+    background-color: #4facfe !important;
 }
 #calculator{
     display: flex;
@@ -46,7 +45,7 @@ body{
     justify-content: space-around;
 }
 .btn{
-    background-color:#0061A8 !important
+    background-image:linear-gradient(to right, #4facfe, #00f2fe)!important
 }
 #footer{
     width: 100%;
